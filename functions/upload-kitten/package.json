@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "apex.js": "^2.0.0",
+    "aws-sdk": "^2.9.0",
+    "babel-polyfill": "^6.22.0",
+    "node-fetch": "^1.6.3"
+  }
+}

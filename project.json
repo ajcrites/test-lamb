@@ -1,0 +1,13 @@
+{
+  "name": "upload-kitten",
+  "description": "",
+  "memory": 128,
+  "timeout": 5,
+  "role": "Create a role and fill this in",
+  "handler": "lib.default",
+  "environment": {},
+  "hooks": {
+    "build": "yarn install --production && ../../node_modules/.bin/webpack --config ../../webpack.config.js --bail",
+    "clean": "rm -rf lib node_modules"
+  }
+}
